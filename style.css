@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#306d65;
+    font-weight: bold;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: #468590;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #f5efed;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagem-perfil {
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #306d65;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    color: #819880;
+    height: 60px;
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    front-size: 36px;
+    color: #306d65;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #819880;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: black;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+.projetos {
+    background-color: #f2efe6;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #468590;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-footer li {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
